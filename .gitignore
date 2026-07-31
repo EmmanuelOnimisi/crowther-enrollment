@@ -1,0 +1,16 @@
+# Database configuration (contains passwords)
+includes/config.php
+
+# Uploaded files (documents, receipts)
+uploads/
+
+# Windows/IDE files
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+# XAMPP/Laragon specific
+*.sql
+*.bak
