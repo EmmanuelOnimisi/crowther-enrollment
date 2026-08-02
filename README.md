@@ -2,6 +2,36 @@
 
 A comprehensive web-based school enrollment system for Crowther Memorial College, Lokoja, Kogi State. This system allows parents to register, submit student applications, make payments, and track application status, while administrators can manage applications, verify payments, and generate reports.
 
+**Live Demo:** [crowther-enrollment](https://github.com/EmmanuelOnimisi/crowther-enrollment)
+
+---
+
+## 📸 Screenshots
+
+### 🏠 Home Page
+![Home Page](assets/images/screenshots/home-page.png)
+
+### 👤 User Login Page
+![User Login](assets/images/screenshots/user-login.png)
+
+### 📝 Registration Page
+![Registration Page](assets/images/screenshots/registration-page.png)
+
+### 📋 Application Page
+![Application Page](assets/images/screenshots/application-page.png)
+
+### 👨‍💼 Admin Login Page
+![Admin Login](assets/images/screenshots/admin-login.png)
+
+### 🖥️ Admin Dashboard
+![Admin Dashboard](assets/images/screenshots/admin-dashboard.png)
+
+### 👤 User Dashboard
+![User Dashboard](assets/images/screenshots/user-dashboard.png)
+
+### 📞 Contact Page
+![Contact Page](assets/images/screenshots/contact-page.png)
+
 ---
 
 ## 📌 Features
@@ -55,7 +85,16 @@ crowther-enrollment/
 ├── assets/ # Static assets
 │ ├── css/ # Stylesheets
 │ ├── js/ # JavaScript
-│ └── images/ # Images
+│ └── images/
+│ └── screenshots/ # Screenshots for README
+│ ├── home-page.png
+│ ├── user-login.png
+│ ├── registration-page.png
+│ ├── application-page.png
+│ ├── admin-login.png
+│ ├── admin-dashboard.png
+│ ├── user-dashboard.png
+│ └── contact-page.png
 │
 ├── includes/
 │ ├── config-sample.php # Configuration template
@@ -75,18 +114,3 @@ crowther-enrollment/
 ├── payment.php # Payment page
 ├── process_*.php # Form processing scripts
 └── ...
-
-
----
-
-📝 Workflow
-text
-
-1. Parent registers → creates account
-2. Parent submits application → status: pending_payment
-3. Parent makes payment (uploads receipt) → status: paid
-4. Admin verifies payment → status: verified
-5. Admin approves application → status: approved
-6. Student is enrolled ✅
-
-
